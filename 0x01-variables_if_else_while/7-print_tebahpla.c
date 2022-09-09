@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - entry point
+ * Description - output the alphabet in reverse
+ * Return: 0
+ */
 
 int main(void)
 {
@@ -10,5 +15,5 @@ int main(void)
 		var--;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
