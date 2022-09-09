@@ -8,46 +8,29 @@
 
 int main(void)
 {
-	int c;
-	int d;
-	int e;
-	int f = 0;
+	int i, j;
 
-	while (f < 10)
+	for (i = 0; i < 100; i++)
 	{
-		e = 0;
-		while (e < 10)
+		for (j = 0; j < 100; j++)
 		{
-			d = 0;
-			while (d < 10)
+			if (i < j)
 			{
-				c = 0;
-				while (c < 10)
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
-					if (!(f == c && e == d))
-					{
-						putchar('0' + f);
-						putchar('0' + e);
-						putchar(' ');
-						putchar('0' + d);
-						putchar('0' + c);
-
-						if (!(f + e == 18 && c + d == 17 && d == 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					c++;
+					putchar(',');
+					putchar(' ');
 				}
-				d++;
 			}
-			e++;
+
 		}
-		f++;
 	}
 	putchar('\n');
 	return (0);
-
-
 }
+
