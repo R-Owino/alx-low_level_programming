@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
- * Description - output all 2-digit numbers from 0-99 without repetitions 
+ * main - entry point
+ * Description - output all 2-digit numbers from 0-99 without repetitions
  * Return: 0
  */
 
