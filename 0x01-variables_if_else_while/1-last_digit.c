@@ -4,7 +4,7 @@
 
 /**
  * main - entry point
- * Description: Get a random number and check its last digit, compare it with 5, 0 and 6
+ * Description: Compare a random's number last digit with 5, 0, and 6
  * Return: 0
  */
 int main(void)
