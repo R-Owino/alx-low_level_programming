@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * Description - output double numbers except same combinations
  * Return: 0
  */
