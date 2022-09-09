@@ -17,6 +17,7 @@ int main(void)
 		if (num < 10)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
