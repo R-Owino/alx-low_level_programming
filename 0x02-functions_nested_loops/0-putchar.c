@@ -2,11 +2,12 @@
  * Header file main.h contains the function prototype for this program
  */
 
+#include <unistd.h>
 #include "main.h"
 
 /**
  * main - Entry point
- * description - print _putchar
+ * description: print _putchar, followed by a new line
  * Return: 0
  */
 
