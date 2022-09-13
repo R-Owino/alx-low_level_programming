@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Entry point
+ * @n: carrier variable
  * Description: print the sign of a number
  * Return: 1 OR 0 OR -1
  */
