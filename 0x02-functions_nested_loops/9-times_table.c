@@ -4,9 +4,11 @@
  * Description: 9x9 multiplication table
  * Return: void
  */
+
 void times_table(void)
 {
 	int r = 0, c, val;
+
 	while (r <= 9)
 	{
 		c = 0;
@@ -37,4 +39,4 @@ void times_table(void)
 		_putchar('\n');
 		r++;
 	}
-}	
+}
