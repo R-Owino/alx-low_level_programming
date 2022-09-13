@@ -1,14 +1,10 @@
-/**
- * Header file main.h contains the function prototype for this program
- */
-
 #include <unistd.h>
 #include "main.h"
 
 /**
- * main - entry point
- * Description - output double numbers except same combinations
- * Return: 0
+ * main - Entry point
+ * Description: prints _putchar, followed by a new line
+ * Return: Always 0 (success)
  */
 
 int main(void)
