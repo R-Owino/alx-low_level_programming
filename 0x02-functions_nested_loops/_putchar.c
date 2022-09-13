@@ -2,7 +2,7 @@
 
 /**
  * _putchar: writes chaacter c to output 
- * &c: specifies the character to print 
+ * @c: specifies the character to print 
  * Return: 1
  */
 
