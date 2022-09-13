@@ -5,17 +5,17 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Entry point
  * description - print _putchar
  * Return: 0
  */
 
 int main(void)
 {
-	char k[9] = "_putchar";
+	char k[8] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 8)
 	{
 		_putchar(k[i]);
 		i++;
