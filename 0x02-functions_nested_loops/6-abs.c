@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int_abs - Entry point
+ * _abs - Entry point
  * @n: carrier variable
  * Description: compute the absolute value of an integer
  * Return: 0 OR 1
