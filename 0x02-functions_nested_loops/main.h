@@ -7,6 +7,6 @@
  * 	 for this project's tasks.
  */
 
-int _putchar(char p);
+int _putchar(char c);
 
 #endif
