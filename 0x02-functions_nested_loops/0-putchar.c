@@ -5,14 +5,14 @@
 #include "main.h"
 
 /**
- * main - the main function
- * description - print _putchar 
+ * main - entry point
+ * description - print _putchar
  * Return: 0
  */
 
 int main(void)
 {
-	char k[10] = "_putchar";
+	char k[9] = "_putchar";
 	int i = 0;
 
 	while (i < 9)
