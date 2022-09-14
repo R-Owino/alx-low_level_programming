@@ -10,18 +10,21 @@ int main(void)
 {
 	int i;
 
-	int term1 = 1, term2 = 2;
+	long int term1 = 1, term2 = 2;
 
-	int term3 = term1 + term2;
+	long int term3 = term1 + term2;
 
-	printf("%d, %d, ", term1, term2);
+	printf("%ld, %ld, ", term1, term2);
 
 	for (i = 3; i <= 50; i++)
 	{
-		printf("%d, ", term3);
+		printf("%ld", term3);
 		term1 = term2;
 		term2 = term3;
 		term3 = term1 + term2;
+
+		if ( i < 50)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
