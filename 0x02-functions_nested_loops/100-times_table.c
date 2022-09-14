@@ -5,19 +5,17 @@
  * Description: nxn multiplication table
  * Return: void
  */
-
 void print_times_table(int n)
 {
-	int r = 0, c, val;
+	int r, c, val;
 
 	if (n > 15 || n < 0)
 	{
 		return;
 	}
-	while (r <= n)
+	for ( r = 0; r <= n; r++)
 	{
-		c = 0;
-		while (c <= n)
+		for (c = 0; c <= n; c++)
 		{
 			val = r * c;
 			if (c == 0)
@@ -47,9 +45,7 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(32);
 			}
-			c++;
 		}
 		_putchar('\n');
-		r++;
 	}
 }
