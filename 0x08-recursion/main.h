@@ -18,6 +18,9 @@ int is_prime_number(int n);
 int _putchar(char c);
 int sq(int n, int base);
 int is_prime(int n, int m);
+int is_palindrome(char *s);
+int last(char *s);
+int palindrome(char *s, int b, int n, int pair);
 
 
 #endif
