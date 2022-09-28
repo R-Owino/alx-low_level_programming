@@ -17,6 +17,7 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int _putchar(char c);
 int sq(int n, int base);
+int is_prime(int n, int m);
 
 
 #endif
