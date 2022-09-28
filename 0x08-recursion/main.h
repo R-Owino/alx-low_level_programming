@@ -21,6 +21,11 @@ int is_prime(int n, int m);
 int is_palindrome(char *s);
 int last(char *s);
 int palindrome(char *s, int b, int n, int pair);
+int wildcmp(char *s1, char *s2);
+int strlen_with_no_wilds(char *str);
+void loop_wild(char **wildstr);
+char *postfix_match(char *str, char *postfix);
+
 
 
 #endif
