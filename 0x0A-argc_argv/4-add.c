@@ -9,14 +9,14 @@
 
 int digit_checker(char *c)
 {
-        int i;
+	int i;
 
-        for (i = 0; c[i] != '\0'; i++)
-        {
-                if (c[i] < '0' || c[i] > '9')
-                        return (1);
-        }
-        return (0);
+	for (i = 0; c[i] != '\0'; i++)
+	{
+		if (c[i] < '0' || c[i] > '9')
+			return (1);
+	}
+	return (0);
 }
 
 /**
@@ -28,17 +28,17 @@ int digit_checker(char *c)
 
 int main(int argc, char **argv)
 {
-        int sum = 0;
+	int sum = 0;
 
-        while (--argc)
-        {
-                if (digit_checker(argv[argc]))
-                {
-                        printf("Error\n");
-                        return (1);
-                }
-                sum += atoi(argv[argc]);
-        }
-        printf("%i\n", sum);
-        return (0);
+	while (--argc)
+	{
+		if (digit_checker(argv[argc]))
+		{
+			printf("Error\n");
+			return (1);
+		}
+		sum += atoi(argv[argc]);
+	}
+	printf("%i\n", sum);
+	return (0);
 }
