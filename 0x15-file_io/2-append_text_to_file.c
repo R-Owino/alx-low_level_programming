@@ -3,7 +3,7 @@
 /**
  * append_text_to_file - append text at the end of a file
  * @filename: pointer to the name of file
- * @text_context: NULL terminated string to add at the end of the file
+ * @text_content: NULL terminated string to add at the end of the file
  * Return: 1 on success and -1 on failure
  */
 
