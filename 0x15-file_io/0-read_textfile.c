@@ -24,16 +24,18 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	op = open(filename, O_RDONLY);
 	rd = read(op, buffer, letters);
-	wr = write(STDOUT_FILENO, buffer, rd);
 
-	if (op == -1 || rd == -1 || wr == -1 || wr != rd)
+	if (op < 0 || rd < 0)
 	{
 		free(buffer);
 		return (0);
 	}
 
+	wr = write(STDOUT_FILENO, buffer, rd);
 	free(buffer);
-	close(0);
+	close(op);
 
-	return (wr);
+	if (wr < 0)
+		return (0);
+	return ((ssize_t)wr);
 }
