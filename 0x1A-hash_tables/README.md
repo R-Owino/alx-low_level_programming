@@ -18,4 +18,6 @@
 
 
 ### Tasks extra info
+
 - Task 2: [djb2 algorithm](https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8)
+- Task 8: [PHP Internals Book: HashTable](https://www.phpinternalsbook.com/php5/hashtables/basic_structure.html)
