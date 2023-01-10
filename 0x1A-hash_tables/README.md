@@ -15,3 +15,7 @@
 - [Hash table](https://en.wikipedia.org/wiki/Hash_table)
 - [All about hash tables](https://www.digitalocean.com/community/tutorials/hash-table-in-c-plus-plus)
 - [why hash tables and not arrays](https://stackoverflow.com/questions/31930046/what-is-a-hash-table-and-how-do-you-make-it-in-c)
+
+
+### Tasks extra info
+- Task 2: [djb2 algorithm](https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8)
