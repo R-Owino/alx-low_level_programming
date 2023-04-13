@@ -2,19 +2,19 @@
 
 /**
  * linear_search - searches for a value in an array of integers using
- * 		linear search algorithm
+ *		linear search algorithm
  * @array: pointer to the first element of the array to search in
  * @size: number of elements in the array
  * @value: value to search for
  *
  * Return: first index where value is located
- * 	otherwise -1 if value is not present or array is NULL
+ *	otherwise -1 if value is not present or array is NULL
  */
 
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
-	
+
 	if (array == NULL || size == 0)
 	{
 		return (-1);
